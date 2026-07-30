@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: Cards
+  datasource:
+    url: jdbc:h2:file:./cards/data/card
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+
+
+  sql:
+    init:
+      mode: always
+      schema: classpath:sql/schema.sql
+
+server:
+  port: 8083
+
+build:
+  version: "0.1"
+
+cards:
+  message: "Welcome to EazyBank cards related Local APIs "
+  contactDetails:
+    name: "Smitha Ray - QA Lead"
+    email: "smitha@eazybank.com"
+  onCallSupport:
+    - (666) 265-3765
+    - (666) 734-8371
