@@ -29,7 +29,7 @@ build:
   version: "0.1"
 
 accounts:
-  message: "Welcome to EazyBank accounts related Local APIs "
+  message: "Welcome to EazyBank accounts related Local Webhook APIs "
   contactDetails:
     name: "Smitha Ray - QA Lead"
     email: "smitha@eazybank.com"
