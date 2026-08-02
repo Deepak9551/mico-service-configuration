@@ -1,25 +1,3 @@
-spring:
-  application:
-    name: loans
-  datasource:
-    url: jdbc:h2:file:./loans/data/loan
-    username: sa
-    password:
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-  h2:
-    console:
-      enabled: true
-
-  sql:
-    init:
-      mode: always
-      schema: classpath:sql/schema.sql
-
-server:
-  port: 8082
 
 build:
   version: "0.1"
